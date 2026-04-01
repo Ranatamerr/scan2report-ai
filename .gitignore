@@ -1,0 +1,13 @@
+# datasets
+src/data/mimic/
+*.parquet
+
+# ML artifacts
+*.pt
+*.bin
+*.ckpt
+*.h5
+
+# python cache
+__pycache__/
+*.pyc
