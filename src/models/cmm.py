@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-class CMM(nn.Module):
+class CMMModule(nn.Module):
     def __init__(self, hidden_size=768, num_heads=8):
         super().__init__()
 
